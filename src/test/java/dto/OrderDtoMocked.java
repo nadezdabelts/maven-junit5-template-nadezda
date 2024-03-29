@@ -6,7 +6,7 @@ public class OrderDtoMocked {
     private String customerName;
     private String customerPhone;
     private String comment;
-    int id;
+    private long id;
 
     public OrderDtoMocked(String status, int courierId, String customerName, String customerPhone, String comment, int id) {
         this.status = status;
@@ -16,6 +16,30 @@ public class OrderDtoMocked {
         this.comment = comment;
         this.id = id;
     }
+
+//    public String getStatus() {
+//        return status;
+//    }
+//
+//    public int getCourierId() {
+//        return courierId;
+//    }
+//
+//    public String getCustomerName() {
+//        return customerName;
+//    }
+//
+//    public String getCustomerPhone() {
+//        return customerPhone;
+//    }
+//
+//    public String getComment() {
+//        return comment;
+//    }
+//
+//    public long getId() {
+//        return id;
+//    }
 
     public OrderDtoMocked( ) {
     }
